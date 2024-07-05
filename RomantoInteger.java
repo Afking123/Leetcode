@@ -10,12 +10,12 @@ public static int romanToInt(String roman) {
     int xten=1;
     int ans = 0;
     for(int i=romanmax-1;i>=0;i--){
-        System.out.println("level:"+level);
+        //System.out.println("level:"+level);
         char word =roman.charAt(i);
-        System.out.println(word);
-        System.out.println(i);
-        System.out.println(roman1[level]);
-        System.out.println(roman5[level]);
+        //System.out.println(word);
+        //System.out.println(i);
+        //System.out.println(roman1[level]);
+        //System.out.println(roman5[level]);
         if(word==roman5[level]){//如果為V開頭
             int k;
             if(i==0){k=5;}else{k=(roman.charAt(i-1)==roman1[level]) ? 4:5;}//如果還有下一位，判斷下一位是否為I,y:4,n:5
