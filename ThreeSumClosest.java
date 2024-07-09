@@ -32,16 +32,7 @@ public class ThreeSumClosest {
                 }
 
             }
-            
-            //System.out.println("i:"+nums[i]+"j:"+nums[j]+","+"k:"+nums[k]);
-            //System.out.println("l:"+l);
-            if(ans==0){ans=l;}
-            //System.out.println(ans);
-            ans=(m>=n) ? ans:l;            
-            System.out.println("m:"+m+"n:"+n);
-            System.out.println(ans);
             }
-            //System.out.println("j:"+j+","+"k:"+k);
             return ans;
         }
     }
