@@ -4,11 +4,10 @@ import java.util.List;
 
 public class FourSum {
     public static void main(String[] args) {
-        int[] a={1000000000,1000000000,1000000000,1000000000};
+        int[] a={1,0,-1,0,-2,2};
         System.out.println(fourSum(a,-294967296));
     }
     public static List<List<Integer>> fourSum(int[] nums, int target) {
-        
         Arrays.sort(nums);
         int numsmax=nums.length;
         List<List<Integer>> answers=new ArrayList<>();
