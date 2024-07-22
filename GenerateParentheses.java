@@ -21,6 +21,5 @@ class GenerateParentheses{
             ans.add(back);
         }
     }
-
 }
 
